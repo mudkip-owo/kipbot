@@ -1,0 +1,6 @@
+discord.py
+aiohttp
+aiocache
+requests
+msgpack
+ujson
