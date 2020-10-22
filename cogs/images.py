@@ -6,6 +6,8 @@ from aiohttp import request
 import requests
 import random
 
+#Note: Results wont be the exact same as Ophelia because it is using a different api.
+
 class images(commands.Cog):
     def __init__(self, client):
         self.client = client
