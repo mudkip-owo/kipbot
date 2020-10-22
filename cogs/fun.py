@@ -126,12 +126,7 @@ class fun(commands.Cog):
             await ctx.send(f"{slotmachine} 2 matching, win!")
         else:
             await ctx.send(f"{slotmachine} none matching, you lost 😢")
-    
-    @commands.is_owner()
-    @commands.command()
-    async def addpremium(ctx, member : discord.Member):
-    	with open('premiumusers.json', 'w') as f:
-    		json.dump(member, f)
+   
 
 
 def setup(bot):
